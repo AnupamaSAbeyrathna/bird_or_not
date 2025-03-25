@@ -2,11 +2,12 @@ import multiprocessing
 import socket
 import time
 from pathlib import Path
-from fastai.vision.all import *
 from fastdownload import download_url
 from PIL import Image
-from torchvision.models import resnet18
 from duckduckgo_search import DDGS
+
+from fastai.vision.all import *
+from torchvision.models import resnet18
 
 # Ensure proper multiprocessing support on Windows
 if __name__ == '__main__':
